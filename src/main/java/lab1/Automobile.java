@@ -21,8 +21,9 @@ public class Automobile {
         this.price=price;
     }
 
-    public void calculateCost(){
+    public int calculateCost(){
        int cost=  (distance/fuelConsumption)*price;
         System.out.println(cost+"$");
+        return cost;
     }
 }
